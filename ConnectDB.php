@@ -13,6 +13,6 @@
 	
 	//If error present display database connection has failed
 	if ($conn->connect_error) {                     
-    die("Database Connection failed: " . $conn->connect_error); 
-    }
+            die("Database Connection failed: " . $conn->connect_error); 
+        }
 ?>

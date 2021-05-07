@@ -4,7 +4,7 @@
 	/* Database connection settings */
 	$servername = "localhost";
 	$username = "root";		//phpmyadmin username.(default is "root")
-	$password = "binuka1998";	//phpmyadmin password 
+	$password = "******";	//phpmyadmin password 
 	$dbname = "NodeMCUlog";       //Database Name
     
 	$conn = new mysqli($servername, $username, $password, $dbname);  // Connect Database to Server
